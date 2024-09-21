@@ -1,5 +1,6 @@
 import BoardingPass from './BoardingPass'
 import { BoardingPassInfo } from '../types'
+import TicketInfo from './TicketInfo'
 
 function MainSection({
   data,
@@ -12,6 +13,7 @@ function MainSection({
   return (
     <div id="mainSection">
       <BoardingPass boardingPass={boardingPass} />
+      <TicketInfo />
     </div>
   )
 }
